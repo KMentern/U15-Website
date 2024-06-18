@@ -1,0 +1,22 @@
+main {
+    flex: 1;
+    background: url('../image/home-background.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-top: 60px; /* Adjust if needed to match your navbar height */
+    padding-bottom: 60px; /* Adjust if needed to match your footer height */
+}
+
+main .container {
+    background: rgba(0, 0, 0, 0.85); /* Optional: Adds a dark overlay for better text readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+main .container .mt-5 {
+    margin-top: 1rem !important;
+}
